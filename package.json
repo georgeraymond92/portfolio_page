@@ -1,0 +1,22 @@
+{
+  "name": "portfolio_page",
+  "version": "1.0.0",
+  "description": "Personal web page to showcase projects I have worked on.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/georgeraymond92/portfolio_page.git"
+  },
+  "author": "George Raymond",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/georgeraymond92/portfolio_page/issues"
+  },
+  "homepage": "https://github.com/georgeraymond92/portfolio_page#readme",
+  "dependencies": {
+    "express": "^4.16.3"
+  }
+}
