@@ -1,3 +1,15 @@
-.landing {
-  background-image: url("../images/backdrop.jpg");
+#image {
+  size: 20%;
+}
+img {
+  display: block;
+  max-width: 23%;
+  height: auto;
+}
+
+.text1 {
+  font-family: "Graduate", cursive;
+}
+body {
+  font-family: "Boogaloo", cursive;
 }

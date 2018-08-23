@@ -11,14 +11,18 @@
         crossorigin="anonymous">
     <!-- Local css style sheet -->
     <link rel="stylesheet" href="./assets/css/style.css">
-
+    <!-- Font Awsome -->
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.2.0/css/all.css" integrity="sha384-hWVjflwFxL6sNzntih27bfxkr27PmbbK/iSvJ+a4+0owXq79v+lsFkW54bOGbiDQ"
+        crossorigin="anonymous">
+    <!-- Google Fonts -->
+    <link href="https://fonts.googleapis.com/css?family=Boogaloo|Graduate" rel="stylesheet">
 </head>
 
 <body>
-    <nav class="navbar navbar-expand-sm navbar-dark bg-dark mb-3">
+    <nav class="text1 navbar navbar-expand-sm navbar-dark bg-dark mb-0 border-bottom border-danger">
         <div class="container">
-            <a class="navbar-brand text-warning" href="#">George Raymond <span class="text-danger">||</span> Full Stack Web
-                Developer
+            <a class="navbar-brand text-warning" href="#about-me">George Raymond <span class="text-danger">||</span> Full
+                Stack Web Developer
             </a>
             <button class="navbar-toggler" data-toggle="collapse" data-target="#navbarNav">
                 <span class="navbar-toggler-icon"></span>
@@ -26,85 +30,90 @@
             <div class="collapse navbar-collapse" id="navbarNav">
                 <ul class="navbar-nav ml-auto">
                     <li class="nav-item">
-                        <a class="nav-link" href="#">About</a>
+                        <a class="nav-link" href="#about-me">About</a>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link" href="#">Projects</a>
+                        <a class="nav-link" href="#projectstarg">Projects</a>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link" href="#">Contact</a>
+                        <a class="nav-link" href="#contact">Contact</a>
                     </li>
                 </ul>
             </div>
         </div>
     </nav>
     <section id="about-me">
-        <div class="container py-5">
-            <h3>About Me</h3>
-            <p>My name is George Raymond and I am a full stack web developer currently located in Los Angeles California.
-                As a recent graduate of UCLA’s full stack development boot camp, I am learning and expanding my skill set
-                on a daily basis. I am fascinated and passionate about technology and enjoy the endless supply of new material
-                there is to explore in this field. Through my experience with the coding boot camp at UCLA I had the opportunity
-                to personally build and oversee the development of many full stack web applications. I am extremely driven
-                and self-sufficient, If I do not know how to do something I will go to great length to teach myself what
-                I am looking for. When it comes to coding I have learned the answer is always there, you just have to know
-                how to look for it. I have worked on both the front and backend of projects I have been involved with extensively.
-                At this point in my career I am proficient and/or have direct experience with following technologies: HTML,
-                CSS, JavaScript, Bootstrap, jQuery, React, Node.js, NPM, Yarn, Express, API’s, Handlebars.js, MySQL, MongoDB
-                and Firebase. Outside of tech, I am a top tier foodie and coffee enthusiast. I love exploring and traveling
-                for amazing food and experiences. I live in Hollywood with my Girlfriend Geneva and our furry son Smoke.
-            </p>
+        <div class="jumbotron mb-0">
+            <div class="container my-2">
+                <img id="image" class="border rounded border-dark float-left mr-3" src="./assets/images/linkedinphoto.jpg" alt="Picture of George">
+                <h3 class="text1">About Me</h3>
+                <p>My name is George Raymond and I am a full stack web developer currently located in Los Angeles California.
+                    As a recent graduate of UCLA’s full stack development boot camp, I am learning and expanding my skill
+                    set on a daily basis. I am fascinated and passionate about technology and enjoy the endless supply of
+                    new material there is to explore in this field. Through my experience with the coding boot camp at UCLA
+                    I had the opportunity to personally build and oversee the development of many full stack web applications.
+                    I am extremely driven and self-sufficient, If I do not know how to do something I will go to great length
+                    to teach myself what I am looking for. When it comes to coding I have learned the answer is always there,
+                    you just have to know how to look for it. I have worked on both the front and backend of projects I have
+                    been involved with extensively. At this point in my career I am proficient and/or have direct experience
+                    with following technologies: HTML, CSS, JavaScript, Bootstrap, jQuery, React, Node.js, NPM, Yarn, Express,
+                    API’s, Handlebars.js, MySQL, MongoDB and Firebase. Outside of tech, I am a top tier foodie and coffee
+                    enthusiast. I love exploring and traveling for amazing food and experiences. I live in Hollywood with
+                    my Girlfriend Geneva and our furry son Smoke.
+                </p>
+            </div>
         </div>
     </section>
-    <section class="projects">
-        <div class="container">
+    <section id="projectstarg" class="projects">
+        <div class="container-fluid bg-white p-4">
+            <h1 id="projects" class="text1 py-3 text-center text-dark">Projects</h1>
             <div class="card-columns">
-                <div class="card">
+                <div class="card mx-2 mt-2 mb-4">
                     <img class="card-img-top img-fluid" src="https://source.unsplash.com/random/300x200" alt="">
                     <div class="card-body">
-                        <h4 class="card-title">Project Title</h4>
+                        <h4 class="text1 card-title">Senior Living Services</h4>
                         <p class="card-text">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Deserunt mollitia
                             distinctio quisquam est molestiae ea!</p>
                     </div>
                 </div>
-                <div class="card">
+                <div class="card mx-2 mt-2 mb-4">
                     <img class="card-img-top img-fluid" src="https://source.unsplash.com/random/300x200" alt="">
                     <div class="card-body">
-                        <h4 class="card-title">Project Title</h4>
+                        <h4 class="text1 card-title">Burger App</h4>
                         <p class="card-text">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Deserunt mollitia
                             distinctio quisquam est molestiae ea!</p>
                     </div>
                 </div>
-                <div class="card">
+                <div class="card mx-2 mt-2 mb-4">
                     <img class="card-img-top img-fluid" src="https://source.unsplash.com/random/300x200" alt="">
                     <div class="card-body">
-                        <h4 class="card-title">Project Title</h4>
+                        <h4 class="text1 card-title">Portfolio Repository</h4>
                         <p class="card-text">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Deserunt mollitia
                             distinctio quisquam est molestiae ea!</p>
                     </div>
                 </div>
             </div>
             <div class="card-columns">
-                <div class="card">
+                <div class="card mx-2 mt-2 mb-4">
                     <img class="card-img-top img-fluid" src="https://source.unsplash.com/random/300x200" alt="">
                     <div class="card-body">
-                        <h4 class="card-title">Project Title</h4>
+                        <h4 class="text1 card-title">CLI application in Node.js</h4>
                         <p class="card-text">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Deserunt mollitia
                             distinctio quisquam est molestiae ea!</p>
                     </div>
                 </div>
-                <div class="card">
+                <div class="card mx-2 mt-2 mb-4">
                     <img class="card-img-top img-fluid" src="https://source.unsplash.com/random/300x200" alt="">
                     <div class="card-body">
-                        <h4 class="card-title">Project Title</h4>
+                        <h4 class="text1 card-title">CLI API Node.js app</h4>
                         <p class="card-text">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Deserunt mollitia
                             distinctio quisquam est molestiae ea!</p>
                     </div>
                 </div>
-                <div class="card">
+                <div class="card mx-2 mt-2 mb-4">
                     <img class="card-img-top img-fluid" src="https://source.unsplash.com/random/300x200" alt="">
                     <div class="card-body">
-                        <h4 class="card-title">Project Title</h4>
+                        <h4 class="text1 card-title">Test Project 6</h4>
                         <p class="card-text">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Deserunt mollitia
                             distinctio quisquam est molestiae ea!</p>
                     </div>
@@ -113,15 +122,33 @@
         </div>
     </section>
     <section id="contact">
-        <div class="container-fluid mt-5">
-            <div class="card text-warning">
-                <img class="card-img" src="https://source.unsplash.com/random/1000x300" alt="">
-                <div class="card-img-overlay">
-                    <h3 class="card-title text-center">Contact Me
-                    </h3>
-                    <h4 class="text-center">Email: <a href="egeorgeraymond@gmail.com">egeorgeraymond@gmail.com</a></h4>
-
+        <div class="jumbotron mb-0">
+            <div class="container">
+                <div class="my-0">
+                    <div class=" text-center">
+                        <h3 class="text1 card-title text-center">Contact Me
+                        </h3>
+                        <p class="text-center text-dark">Email: <a class="text-dark" href="">egeorgeraymond@gmail.com</a></p>
+                    </div>
+                    <div id="link-icons" class="row col-sm-12 offset-sm-0 col-md-6 offset-md-3">
+                        <div class="mx-auto my-2">
+                            <div class="mx-auto">
+                                <a class="text-dark px-3" href="https://www.linkedin.com/in/george-raymond-8725b9152/"><i
+                                        class="fab fa-linkedin fa-3x"></i></a>
+                                <a class="text-dark px-3" href="https://github.com/georgeraymond92"><i class="fab fa-github fa-3x"></i></a>
+                                <a class="text-dark px-3" href="https://stackoverflow.com/users/9340884/george-raymond"><i
+                                        class="fab fa-stack-overflow fa-3x"></i></a>
+                            </div>
+                        </div>
+                    </div>
                 </div>
+            </div>
+        </div>
+    </section>
+    <section id="footer">
+        <div class="text1 footer bg-dark border-top border-danger">
+            <div class="container text-center text-warning py-3">
+                <p>All rights reserved <span class="text-danger">||</span> George Raymond<br>2018</p>
             </div>
         </div>
     </section>
