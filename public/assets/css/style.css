@@ -13,3 +13,9 @@ img {
 body {
   font-family: "Boogaloo", cursive;
 }
+.break {
+  overflow-wrap: break-word;
+}
+a {
+  text-decoration: none;
+}
