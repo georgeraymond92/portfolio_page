@@ -3,15 +3,15 @@
 }
 img {
   display: block;
-  max-width: 23%;
+  max-width: 30%;
   height: auto;
 }
 
-.text1 {
+/* .text1 {
   font-family: "Graduate", cursive;
-}
+} */
 body {
-  font-family: "Boogaloo", cursive;
+  font-family: 'Quattrocento Sans', sans-serif;
 }
 .break {
   overflow-wrap: break-word;
